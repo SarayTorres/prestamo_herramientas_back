@@ -100,16 +100,7 @@ spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
 cd demo
 
 # Compilar y ejecutar
-mvn spring-boot:run
-```
-
-### Opción 2: Usando el JAR
-```bash
-# Compilar el proyecto
-mvn clean package
-
-# Ejecutar el JAR
-java -jar target/demo-0.0.1-SNAPSHOT.jar
+.\mvnw.cmd spring-boot:run
 ```
 
 ### Opción 3: Desde el IDE
